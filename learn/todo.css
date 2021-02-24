@@ -1,0 +1,60 @@
+.container{
+    position: absolute;
+    height: 25pc;
+    width: 20pc;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: cornflowerblue;
+    box-shadow: 0 0 25px black
+}
+
+.addtxt{
+    position: absolute;
+    margin: auto;
+    top: 25px;
+    right: 0;
+    left: 0;
+    height: 5px;
+    width: 60%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.addbtn{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    top: 25px;
+    right: 35px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.list{
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.element{
+    position: relative;
+    height: 12%;
+    left: 25px;
+}

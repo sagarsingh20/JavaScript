@@ -1,0 +1,43 @@
+.login{
+    width: 18pc;
+    height: auto;
+    top: 5rem;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.logged{
+    position: relative;
+    height: 22pc;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 6rem;
+    bottom: 0;
+    box-shadow: 5px 2px 23px 6px #dddbdb
+}
+.names{
+    padding: 6px 54px;
+}
+h3{
+    font-size: 22px;
+    padding-top: 25px;
+    text-align: center;
+    color: #e61758
+}
+button{
+    color:#fff;
+    background-color: #b81246;
+    border-color: #ae1143;
+    border-radius: 6px;
+    padding: 7px 19px;
+    position: relative;
+    left: 40px;
+    top:2rem;
+}
+label{
+    color: #7b7b7b;
+    font-size: 12px;
+    font-weight: 400
+}

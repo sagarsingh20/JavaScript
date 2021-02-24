@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script defer src="learn.js"></script>
+        <link rel="stylesheet" href="learn.css">
+        <title>Learn JS</title>
+    </head>
+    <body>
+        <h1 style="text-align: center">Welcome To Learn</h1>
+        <div class="fullScreen">
+            <div class="all">
+                <h3>My Lists</h3>
+                <ul class="task-list" data-lists></ul>
+                <form data-new-list-form>
+                    <input type="text" class="new_list" placeholder="class list name" data-new-list-input>
+                    <button class="butn" >+</button>
+                </form>
+            </div>
+            <div class="todo-list">
+                <div class="todo-header">
+                    <h2 style="text-align: center">Task Lists</h2>
+                </div>
+                <div class="todo-body">
+                    <div class="tasks">
+                        <div class="task">
+                            <input type="checkbox" id="task-1">
+                            <label for="task-1">
+                                <span>record-1</span>
+                            </label>
+                        </div>
+                        <div class="task">
+                            <input type="checkbox" id="task-2">
+                            <label for="task-2">
+                                <span>record-2</span>
+                            </label>
+                        </div>
+                        <div class="task">
+                            <input type="checkbox" id="task-3">
+                            <label for="task-3">
+                                <span>record-3</span>
+                            </label>
+                        </div>
+                        <div class="task">
+                            <input type="checkbox" id="task-4">
+                            <label for="task-4">
+                                <span>record-4</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="new-class-creator">
+                        <form>
+                            <input type="text" class="new_list" placeholder="add new task">
+                            <button class="butn">+</button>
+                        </form>
+                    </div>
+                    <div class="btn">
+                        <button type="button" class="butp" data-delete-list-all>Remove All</button>
+                        <button type="button" class="butp" data-delete-list>Selected Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

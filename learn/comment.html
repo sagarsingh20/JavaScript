@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="comment.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="comment.js" async ></script>
+        <title>Comments</title>
+    </head>
+    <body>
+        <div class="coment">
+            <h1 style="text-align: center">Welcome To Comment Section</h1>
+            <div class="box">
+                <label style="padding-left: 5rem">Comments:</label>
+                <textarea  class="comment" name="comment" rows="1" cols="50"></textarea>
+                <button class="btn" type="submit" onclick="add()">ADD</button>
+                <button class="btn" type="button" onclick="deleteAll()">RemoveAll</button>
+            </div>
+            <div class="show"></div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,52 @@
+.coment{
+    position: absolute;
+    height: auto;
+    width: 45pc;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.btn{
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 1.2;
+    border-width: 0.01px;
+    left:25px
+}
+
+.bttn{
+    background-color: #fff;
+    font-size: 12px;
+    border-width: 0.01px;
+    position: relative;
+    left: 28rem;
+}
+.app{
+    margin-left: 10px
+}
+.p{
+    margin-left:40px
+}
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.h4{
+    margin-block-end: 0.5em;
+}
+.fa{
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+    font-size: 40px;
+}
